@@ -84,7 +84,7 @@
     };
 
     trouble-nvim = {
-      url = "github:folke/trouble.nvim/v2.3.0";
+      url = "github:folke/trouble.nvim/v2.10.0";
       flake = false;
     };
 
@@ -104,7 +104,7 @@
     };
 
     telescope-nvim = {
-      url = "github:nvim-telescope/telescope.nvim/0.1.1";
+      url = "github:nvim-telescope/telescope.nvim/0.1.4";
       flake = false;
     };
 
@@ -114,7 +114,7 @@
     };
 
     nvim-dap = {
-      url = "github:mfussenegger/nvim-dap/0.6.0";
+      url = "github:mfussenegger/nvim-dap/0.7.0";
       flake = false;
     };
 
@@ -154,7 +154,7 @@
     };
 
     which-key-nvim = {
-      url = "github:folke/which-key.nvim/v1.4.3";
+      url = "github:folke/which-key.nvim/v1.6.0";
       flake = false;
     };
   };
