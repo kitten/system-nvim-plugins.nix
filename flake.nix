@@ -104,7 +104,7 @@
     };
 
     telescope-nvim = {
-      url = "github:nvim-telescope/telescope.nvim/0.1.4";
+      url = "github:nvim-telescope/telescope.nvim/0.1.5";
       flake = false;
     };
 
