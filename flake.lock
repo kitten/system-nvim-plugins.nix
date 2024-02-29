@@ -344,11 +344,11 @@
     "nvim-treesitter": {
       "flake": false,
       "locked": {
-        "lastModified": 1709189133,
-        "narHash": "sha256-OzShkBFuOzI+Ed6cQznpYkIrGdp7zmLOiuLM8z18pKA=",
+        "lastModified": 1709215530,
+        "narHash": "sha256-FxEvcfftFNosAffeyTqvKhzRxf0DyyND1F8ShVH6deU=",
         "owner": "nvim-treesitter",
         "repo": "nvim-treesitter",
-        "rev": "4349af8a6e8171d5e313a2e4e33d912745ef5e1e",
+        "rev": "62b0bb4f24ad09f535efe44cc9d088f90dcd2498",
         "type": "github"
       },
       "original": {
@@ -466,6 +466,7 @@
         "nvim-treesitter-textobjects": "nvim-treesitter-textobjects",
         "plenary-nvim": "plenary-nvim",
         "popup-nvim": "popup-nvim",
+        "telescope-file-browser-nvim": "telescope-file-browser-nvim",
         "telescope-nvim": "telescope-nvim",
         "trouble-nvim": "trouble-nvim",
         "vim-fugitive": "vim-fugitive",
@@ -486,6 +487,22 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "telescope-file-browser-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1707961327,
+        "narHash": "sha256-tB745Df64PknPkP6GBf427naC5lRDvJrgkdLeZ6aADg=",
+        "owner": "nvim-telescope",
+        "repo": "telescope-file-browser.nvim",
+        "rev": "48ffb8de688a22942940f50411d5928631368848",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-telescope",
+        "repo": "telescope-file-browser.nvim",
         "type": "github"
       }
     },

@@ -108,6 +108,11 @@
       flake = false;
     };
 
+    telescope-file-browser-nvim = {
+      url = "github:nvim-telescope/telescope-file-browser.nvim";
+      flake = false;
+    };
+
     nvim-lspconfig = {
       url = "github:neovim/nvim-lspconfig";
       flake = false;
