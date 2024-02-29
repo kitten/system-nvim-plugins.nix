@@ -149,7 +149,7 @@
     };
 
     dressing-nvim = {
-      url = "github:stevearc/dressing.nvim";
+      url = "github:stevearc/dressing.nvim/v2.2.0";
       flake = false;
     };
 
