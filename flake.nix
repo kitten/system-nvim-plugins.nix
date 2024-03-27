@@ -169,8 +169,8 @@
       inherit (super.lib.attrsets) mapAttrs filterAttrs;
     in {
       nvim-plugins = mapAttrs (name: value:
-        super.vimUtils.buildVimPluginFrom2Nix {
-          pname = name;
+        super.vimUtils.buildVimPlugin {
+          inherit name;
           version = "flake";
           src = "${value.outPath}";
         }
