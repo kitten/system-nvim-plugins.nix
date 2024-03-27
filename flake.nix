@@ -108,8 +108,8 @@
       flake = false;
     };
 
-    telescope-file-browser-nvim = {
-      url = "github:nvim-telescope/telescope-file-browser.nvim";
+    telescope-zf-native-nvim = {
+      url = "github:natecraddock/telescope-zf-native.nvim";
       flake = false;
     };
 
