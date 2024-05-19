@@ -24,7 +24,8 @@
     };
 
     nvim-cmp = {
-      url = "github:hrsh7th/nvim-cmp";
+      # https://github.com/hrsh7th/nvim-cmp/issues/1877
+      url = "github:hrsh7th/nvim-cmp/b356f2c80cb6c5bae2a65d7f9c82dd5c3fdd6038";
       flake = false;
     };
 
@@ -84,7 +85,7 @@
     };
 
     trouble-nvim = {
-      url = "github:folke/trouble.nvim/v2.10.0";
+      url = "github:folke/trouble.nvim";
       flake = false;
     };
 
@@ -104,7 +105,7 @@
     };
 
     telescope-nvim = {
-      url = "github:nvim-telescope/telescope.nvim/0.1.6";
+      url = "github:nvim-telescope/telescope.nvim";
       flake = false;
     };
 
@@ -154,7 +155,7 @@
     };
 
     dressing-nvim = {
-      url = "github:stevearc/dressing.nvim/v2.2.0";
+      url = "github:stevearc/dressing.nvim/v2.2.1";
       flake = false;
     };
 
