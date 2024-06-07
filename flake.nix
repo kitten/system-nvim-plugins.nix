@@ -24,8 +24,7 @@
     };
 
     nvim-cmp = {
-      # https://github.com/hrsh7th/nvim-cmp/issues/1877
-      url = "github:hrsh7th/nvim-cmp/b356f2c80cb6c5bae2a65d7f9c82dd5c3fdd6038";
+      url = "github:hrsh7th/nvim-cmp";
       flake = false;
     };
 
