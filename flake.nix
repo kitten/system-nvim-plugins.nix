@@ -84,7 +84,7 @@
     };
 
     trouble-nvim = {
-      url = "github:folke/trouble.nvim";
+      url = "github:folke/trouble.nvim/v3.6.0";
       flake = false;
     };
 
@@ -154,7 +154,7 @@
     };
 
     dressing-nvim = {
-      url = "github:stevearc/dressing.nvim/v2.2.1";
+      url = "github:stevearc/dressing.nvim/v2.2.2";
       flake = false;
     };
 
