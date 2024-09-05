@@ -127,6 +127,11 @@
       url = "github:deathbeam/autocomplete.nvim";
       flake = false;
     };
+
+    oil-nvim = {
+      url = "github:stevearc/oil.nvim";
+      flake = false;
+    };
   };
 
   outputs = { nixpkgs, flake-utils, ... } @ inputs: {
