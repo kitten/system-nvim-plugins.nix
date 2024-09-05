@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "coq-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725229616,
+        "narHash": "sha256-Q6AfHwlY6wkq+lKLE6jQ5nCb2cLVqYxoCNEmqx/lhas=",
+        "owner": "ms-jpq",
+        "repo": "coq_nvim",
+        "rev": "0b4015f9c18fb17e58891e645a652040e6f3e98d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ms-jpq",
+        "ref": "coq",
+        "repo": "coq_nvim",
+        "type": "github"
+      }
+    },
     "dressing-nvim": {
       "flake": false,
       "locked": {
@@ -439,6 +456,7 @@
     },
     "root": {
       "inputs": {
+        "coq-nvim": "coq-nvim",
         "dressing-nvim": "dressing-nvim",
         "flake-utils": "flake-utils",
         "gitsigns-nvim": "gitsigns-nvim",

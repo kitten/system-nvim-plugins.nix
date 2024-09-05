@@ -162,6 +162,11 @@
       url = "github:folke/which-key.nvim/v1.6.0";
       flake = false;
     };
+
+    coq-nvim = {
+      url = "github:ms-jpq/coq_nvim/coq";
+      flake = false;
+    };
   };
 
   outputs = { nixpkgs, flake-utils, ... } @ inputs: {
