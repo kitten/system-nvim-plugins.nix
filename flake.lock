@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "autocomplete-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1723229959,
+        "narHash": "sha256-KqkYKXwY+1BMd+2PdWT08KmUc0Uc+Gk9LPp0e7njlms=",
+        "owner": "deathbeam",
+        "repo": "autocomplete.nvim",
+        "rev": "f600445270d5b2472eacc3c164413760215d48ed",
+        "type": "github"
+      },
+      "original": {
+        "owner": "deathbeam",
+        "repo": "autocomplete.nvim",
+        "type": "github"
+      }
+    },
     "coq-nvim": {
       "flake": false,
       "locked": {
@@ -456,6 +472,7 @@
     },
     "root": {
       "inputs": {
+        "autocomplete-nvim": "autocomplete-nvim",
         "coq-nvim": "coq-nvim",
         "dressing-nvim": "dressing-nvim",
         "flake-utils": "flake-utils",

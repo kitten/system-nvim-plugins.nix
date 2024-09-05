@@ -167,6 +167,11 @@
       url = "github:ms-jpq/coq_nvim/coq";
       flake = false;
     };
+
+    autocomplete-nvim = {
+      url = "github:deathbeam/autocomplete.nvim";
+      flake = false;
+    };
   };
 
   outputs = { nixpkgs, flake-utils, ... } @ inputs: {
