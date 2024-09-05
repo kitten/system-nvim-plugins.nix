@@ -18,11 +18,6 @@
       flake = false;
     };
 
-    nvim-snippy = {
-      url = "github:dcampos/nvim-snippy";
-      flake = false;
-    };
-
     nvim-cmp = {
       url = "github:hrsh7th/nvim-cmp";
       flake = false;
@@ -38,38 +33,8 @@
       flake = false;
     };
 
-    nvim-cmp-lsp-document-symbol = {
-      url = "github:hrsh7th/cmp-nvim-lsp-document-symbol";
-      flake = false;
-    };
-
     nvim-cmp-lsp-signature-help = {
       url = "github:hrsh7th/cmp-nvim-lsp-signature-help";
-      flake = false;
-    };
-
-    nvim-cmp-buffer = {
-      url = "github:hrsh7th/cmp-buffer";
-      flake = false;
-    };
-
-    nvim-cmp-path = {
-      url = "github:hrsh7th/cmp-path";
-      flake = false;
-    };
-
-    nvim-cmp-snippy = {
-      url = "github:dcampos/cmp-snippy";
-      flake = false;
-    };
-
-    nvim-cmp-cmdline = {
-      url = "github:hrsh7th/cmp-cmdline";
-      flake = false;
-    };
-
-    nvim-cmp-cmdline-history = {
-      url = "github:dmitmel/cmp-cmdline-history";
       flake = false;
     };
 
@@ -148,11 +113,6 @@
       flake = false;
     };
 
-    nvim-treesitter-context = {
-      url = "github:nvim-treesitter/nvim-treesitter-context";
-      flake = false;
-    };
-
     dressing-nvim = {
       url = "github:stevearc/dressing.nvim/v2.2.2";
       flake = false;
@@ -160,11 +120,6 @@
 
     which-key-nvim = {
       url = "github:folke/which-key.nvim/v1.6.0";
-      flake = false;
-    };
-
-    coq-nvim = {
-      url = "github:ms-jpq/coq_nvim/coq";
       flake = false;
     };
 
