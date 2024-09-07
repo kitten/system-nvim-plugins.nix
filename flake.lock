@@ -116,6 +116,22 @@
         "type": "github"
       }
     },
+    "mini-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725702691,
+        "narHash": "sha256-x4hefKKUaV+9dkYPy7SSmFl9lXgoQg3N938EhgiYdv0=",
+        "owner": "echasnovski",
+        "repo": "mini.nvim",
+        "rev": "8413efde2546be4dec9ea424bc6af346a14dffbe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "echasnovski",
+        "repo": "mini.nvim",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1725432240,
@@ -350,6 +366,7 @@
         "hardline-nvim": "hardline-nvim",
         "lir-nvim": "lir-nvim",
         "lspkind-nvim": "lspkind-nvim",
+        "mini-nvim": "mini-nvim",
         "nixpkgs": "nixpkgs",
         "null-ls-nvim": "null-ls-nvim",
         "nvim-cmp": "nvim-cmp",

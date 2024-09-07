@@ -132,6 +132,11 @@
       url = "github:stevearc/oil.nvim";
       flake = false;
     };
+
+    mini-nvim = {
+      url = "github:echasnovski/mini.nvim";
+      flake = false;
+    };
   };
 
   outputs = { nixpkgs, flake-utils, ... } @ inputs: {
